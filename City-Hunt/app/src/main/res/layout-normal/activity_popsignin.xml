@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.gowtham.city_hunt.Popsignin"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText5"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:hint="Email"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText6"
+        android:drawableLeft="@drawable/ic_action_secure"
+        android:hint="Password"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#808080" />
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/editText6"
+     android:layout_alignParentLeft="true"
+     android:layout_alignParentStart="true"
+     android:layout_marginTop="10dp"
+     android:id="@+id/linearLayout">
+
+     <Button
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="SIGNIN"
+         android:id="@+id/button14"
+         tools:ignore="HardcodedText"
+         android:background="@layout/button"
+         android:layout_weight="1"
+         android:textColor="#ffffff"
+         android:layout_marginRight="5dp" />
+
+     <Button
+         tools:ignore="HardcodedText"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="SIGNUP"
+         android:id="@+id/button15"
+         android:background="@layout/button"
+         android:layout_weight="1"
+         android:textColor="#ffffff"
+         android:layout_marginLeft="5dp" />
+ </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignRight="@+id/linearLayout"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:textColor="#808080"
+        android:clickable="true"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
