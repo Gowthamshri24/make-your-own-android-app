@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/libs/gcm.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/gcm-1d35b414b0da234e16c5e64c59efe9af1f9d144f.jar" />
+    </item>
+    <item
+        jar="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/libs/additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/additionnal-378147bac50ca6ea8802a5649ca4f70a2a938423.jar" />
+    </item>
+    <item
+        jar="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/classes-31affd0d4bede27e4109484691b89865c45a6d2b.jar" />
+    </item>
+    <item
+        jar="/Users/gowtham/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-b7f2246335548ffc7b3f7d2efb5e2d6c6bb89989.jar" />
+    </item>
+    <item
+        jar="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/libs/mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/mail-7bff1f241b3c4e590e55653338c56a4002816714.jar" />
+    </item>
+    <item
+        jar="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/classes-f3e48df0da5e62d47980f055192425aac157b1a1.jar" />
+    </item>
+    <item
+        jar="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/libs/activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/activation-5f366460f331ced82fd995efe2180fa0eb986d51.jar" />
+    </item>
+    <item
+        jar="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/gowtham/Desktop/android-play-location-master/City-Hunt/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-05d907d0709e62fce4d7b446774d7cca132a4eb0.jar" />
+    </item>
+
+</items>
