@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/linear1"
+    android:gravity="bottom|top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ffff"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CITY-HUNT"
+        android:id="@+id/textView"
+        android:textColor="#ffffff"
+        android:textSize="45sp"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#ffffff">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal"
+        android:outlineProvider="bounds"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:textColorHint="#808080"
+        tools:ignore="HardcodedText"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText4"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:focusable="true"
+        android:drawableLeft="@drawable/ic_action_secure"
+        android:hint="Password"
+        android:password="true"
+        android:textColorHint="#808080"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SignIn"
+                android:background="@layout/button"
+                android:id="@+id/button"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#ffffff"
+                android:layout_weight="1" />
+
+            <Button
+                tools:ignore="HardcodedText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signup"
+                android:background="@layout/button"
+                android:id="@+id/button23"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#ffffff"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView36"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:clickable="true"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SKIP >>"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        tools:ignore="HardcodedText"
+        android:textColor="#808080" />
+
+    </LinearLayout>
+
+</LinearLayout>
