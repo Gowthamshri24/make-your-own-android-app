@@ -1,0 +1,316 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.gowtham.city_hunt.Details"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ff3aabfb"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Title"
+                    android:id="@+id/textView11"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="26sp"
+                    android:textColor="#ffffff"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView17"
+                android:background="@drawable/org"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:id="@+id/textView38"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:text="org"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView11"
+                android:background="@drawable/map"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:id="@+id/editText17"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:text="Venue"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView12"
+                android:background="@drawable/ic_action_go_to_today"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:id="@+id/textView12"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="40dp"
+                android:text="Date"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="SYNOPSIS"
+            android:id="@+id/textView13"
+            android:layout_marginTop="20dp"
+            android:textColor="#ed4255"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="details"
+            android:id="@+id/textView14"
+            android:layout_gravity="center_horizontal"
+            tools:ignore="HardcodedText"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawableLeft="@drawable/rupee"
+                android:drawablePadding="10dp"
+                android:id="@+id/textView15"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center|left"
+                android:text="ENTRY STATUS"
+                android:textColor="#ed4255" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Entry"
+                android:id="@+id/textView20"
+                android:layout_gravity="center_horizontal|left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+        <LinearLayout
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawableLeft="@drawable/seat"
+                android:drawablePadding="10dp"
+                android:id="@+id/textView16"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center|left"
+                android:text="SEATS AVAILABLE"
+                android:textColor="#ed4255" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="seats"
+                android:id="@+id/textView17"
+                android:layout_gravity="center_horizontal|left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_action_person"
+                android:drawablePadding="10dp"
+                android:id="@+id/textView18"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center|left"
+                android:text="CONTACT PERSON"
+                android:textColor="#ed4255" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="person"
+                android:id="@+id/textView19"
+                android:layout_gravity="center_horizontal|left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_action_call"
+                android:drawablePadding="10dp"
+                android:id="@+id/textView21"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center|left"
+                android:text="CONTACT NO"
+                android:textColor="#ed4255" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="number"
+                android:id="@+id/textView22"
+                android:layout_gravity="center_horizontal|left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            tools:ignore="UseCompoundDrawables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:drawableLeft="@drawable/ic_action_email"
+                android:drawablePadding="10dp"
+                android:id="@+id/textView23"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:gravity="center|left"
+                android:text="CONTACT EMAIL"
+                android:textColor="#ed4255" />
+
+            <TextView
+                tools:ignore="HardcodedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email"
+                android:id="@+id/textView24"
+                android:layout_gravity="center_horizontal|left"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
