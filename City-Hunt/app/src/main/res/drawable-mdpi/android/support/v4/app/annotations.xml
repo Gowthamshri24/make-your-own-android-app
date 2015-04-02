@@ -1,0 +1,9 @@
+<root>
+    <item name='android.support.v4.app.Fragment'>
+        <annotation name='org.jetbrains.annotations.NotNull' />
+    </item>
+    <item
+        name='android.support.v4.app.FragmentActivity android.support.v4.app.FragmentManager getSupportFragmentManager()'>
+        <annotation name='java.lang.annotation.Deprecated' />
+    </item>
+</root>
