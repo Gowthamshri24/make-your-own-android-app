@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.gowtham.city_hunt.MyEvents"
+    android:baselineAligned="false">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3.0sp"
+        android:divider="@android:color/white"
+        android:id="@+id/listView"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
