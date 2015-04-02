@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.gowtham.city_hunt"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission
+        android:name="com.android.gowtham.city_hunt.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.android.gowtham.city_hunt.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Style2" >
+        <activity
+            android:name="com.android.gowtham.city_hunt.Homescreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.MainActivity"
+            android:label="@string/title_activity_main_activity2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Search"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Post"
+            android:label="@string/title_activity_post"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Sample"
+            android:label="@string/title_activity_sample"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Loginscreen"
+            android:label="@string/title_activity_loginscreen"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Style2" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Popsignin"
+            android:label="@string/title_activity_popsignin"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.MyEvents"
+            android:label="@string/title_activity_my_events"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Details"
+            android:label="@string/title_activity_details"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Edit"
+            android:label="@string/title_activity_edit"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.MainActivity3"
+            android:label="@string/title_activity_main_activity3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Description"
+            android:label="@string/title_activity_description"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Comments"
+            android:label="@string/title_activity_comments"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.PickRegion"
+            android:label="@string/title_activity_pick_region"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.ForgotPassword"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.Password"
+            android:label="@string/title_activity_password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.android.gowtham.city_hunt.MainActivity2"
+            android:label="@string/title_activity_main_activity2"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <!-- Receives the registration id. -->
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.android.gowtham.city_hunt" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.android.gowtham.city_hunt.GCMIntentService" />
+    </application>
+
+</manifest>
